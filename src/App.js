@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
+import  Hello from './components/Hello'
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -37,10 +38,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <LambdaDemo />
+          <Hello />
         </header>
       </div>
     )
